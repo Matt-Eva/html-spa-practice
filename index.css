@@ -2,16 +2,40 @@
     margin: 0;
  }
 
+ body {
+   display: grid;
+   grid-template-rows: 50px calc(100vh - 50px);
+ }
+
  header {
     background-color: green;
     height: 50px;
+    width: 100vw;
+    position: fixed;
     display: flex;
     align-items: center;
+    /* justify-content: center; */
+ }
+
+ main {
+   grid-row: 2;
+   height: calc(100vh - 50px);
+   overflow: hidden;
  }
 
  #head-nav {
     height: 50px;
     display: flex;
     align-items: center;
+ }
+
+ #about {
+   height: calc(100vh - 50px);
+   background-color: teal;
+ }
+
+ #browse {
+   height: calc(100vh - 50px);
+   background-color: aquamarine;
  }
 
