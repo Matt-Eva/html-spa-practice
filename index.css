@@ -1,0 +1,17 @@
+ body, h1, h2, header, nav{
+    margin: 0;
+ }
+
+ header {
+    background-color: green;
+    height: 50px;
+    display: flex;
+    align-items: center;
+ }
+
+ #head-nav {
+    height: 50px;
+    display: flex;
+    align-items: center;
+ }
+
